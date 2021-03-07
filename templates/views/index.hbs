@@ -1,0 +1,20 @@
+
+<html>
+    <head>
+        <title>This is Weather</title>
+        <link rel="stylesheet" href="./css/style.css"/>
+       
+    </head>
+    <body>
+        {{>header}}
+        <h1>Welcome to my {{title}}</h1>
+        <form>
+        <input placeholder="Enter Location"/>
+        <p id="msg"></p>
+
+        <button>Search</button>
+        </form>
+        {{>footer}}
+         <script type="text/javascript" src="./js/fetch.js"></script>
+    </body>
+</html>
